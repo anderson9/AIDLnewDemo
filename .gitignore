@@ -30,6 +30,16 @@ $RECYCLE.BIN/
 
 # Thumbnails
 ._*
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100

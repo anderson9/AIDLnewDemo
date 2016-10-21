@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ljs.aidltest.MainActivity">
+  <LinearLayout
+      android:layout_marginTop="50dp"
+      android:layout_marginLeft="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+      <Button
+          android:id="@+id/btn_bind"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:onClick="clickButton"
+          android:text="bind"/>
+
+      <Button
+          android:id="@+id/btn_unbind"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:onClick="clickButton"
+          android:text="unbind"/>
+
+      <Button
+          android:id="@+id/btn_kill"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:onClick="clickButton"
+          android:text="kill"/>
+
+  </LinearLayout>
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+</RelativeLayout>
